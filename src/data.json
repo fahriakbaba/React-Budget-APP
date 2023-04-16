@@ -1,0 +1,32 @@
+{
+  "shoppingList": [
+    {
+      "id": 1,
+      "name": "Apple iPhone 11 (64 GB) - Siyah",
+      "price": 16246,
+      "url": "https://m.media-amazon.com/images/I/71iO2R+CLjL._AC_UL400_.jpg",
+      "amount": 1
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S20 FE 128 GB, 6 GB RAM Akıllı Cep Telefonu, Koyu Mavi",
+      "price": 11279,
+      "url": "https://m.media-amazon.com/images/I/61xx0QLQEdL._AC_UL400_.jpg",
+      "amount": 1
+    },
+    {
+      "id": 3,
+      "name": "General Mobile GM21 Pro New Edition, Koyu Gri",
+      "price": 5489,
+      "url": "https://m.media-amazon.com/images/I/71RpL8Eh6HL._AC_UL400_.jpg",
+      "amount": 1
+    },
+    {
+      "id": 4,
+      "name": "Xiaomi 12 Lite,8GB Ram, 256GB Depolama, Pembe ",
+      "price": 13999,
+      "url": "https://m.media-amazon.com/images/I/61qWnzKK8UL._AC_UL400_.jpg",
+      "amount": 1
+    }
+  ]
+}
