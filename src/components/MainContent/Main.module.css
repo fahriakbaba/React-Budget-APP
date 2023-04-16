@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5% 12%;
+    gap: 1rem;
+}
+
+.itemCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: .5px .5px 5px gainsboro;
+    width: 300px;
+    height: 350px;
+    padding: .3rem 1rem;
+    gap: .5rem;
+    text-align: center;
+    transition: box-shadow .3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.itemCard:hover {
+    box-shadow: 1px 1px 5px gray;
+}
+
+.image {
+    width: 100px;
+    height: 175px;
+}
+
+.title {
+    font-size: .9rem;
+    padding-block-start: .7rem;
+    padding-block-end: .3rem;
+}
+
+.price {
+    font-size: .75rem;
+    color: rgb(128, 128, 128);
+    font-weight: 600;
+    padding-block-end: .3rem;
+}
+
+.btn {
+    padding: 5px 8px;
+    cursor: pointer;
+    color: #28A745;
+    border: 2px solid #28A745;
+    background-color: white;
+    border-radius: 3px;
+    transition: color .5s, background-color .5s;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #28A745;
+}
+
+
+
+
+
+
+

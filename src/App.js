@@ -7,16 +7,10 @@ console.log(data);
 
 function App() {
 
-  const handleClick = (e) => {
-    console.log(e.target);
-    console.log(e.type);
-  }
-
   return (
     <div className="App">
       <Header />
       <Main />
-      <button onClick={handleClick}>Click me!</button>
     </div>
   );
 }
