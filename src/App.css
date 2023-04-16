@@ -1,0 +1,13 @@
+/* reset in CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* to import font-family from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}

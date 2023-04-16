@@ -1,0 +1,9 @@
+.header {
+    padding: 1% 4%;
+    width: 100vw;
+    box-shadow: .5px .5px 5px rgb(182, 175, 175);
+}
+
+.title {
+    color: rgb(78, 72, 72);
+}
