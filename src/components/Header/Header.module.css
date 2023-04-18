@@ -2,6 +2,20 @@
     padding: 1.5rem 5rem;
     width: 100vw;
     box-shadow: .5px .5px 5px rgb(182, 175, 175);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header p {
+    font-size: .85rem;
+}
+
+header span {
+    font-weight: 600;
+    margin-right: .3rem;
+    font-size: .9rem;
+    color: rgba(122, 0, 0, 0.788);
 }
 
 .title {
