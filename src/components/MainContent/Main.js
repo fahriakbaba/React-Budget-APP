@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./Main.module.css";
 import data from "../../data.json";
+import ShowCart from "../ShowCart/ShowCart";
 
 function Main({ cart, setCart }) {
 
@@ -25,8 +26,11 @@ function Main({ cart, setCart }) {
   ));
 
   return (
-    <main className={styles.container}>
-      {dataMap}
+    <main>
+      <section className={styles.container}>
+        {dataMap}
+      </section>
+      <ShowCart />
     </main>
   )
 }
