@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![image1](./public/images/shopping1.png)
+
+![image2](./public/images/shopping2.png)
+
+You can access the live demo of [this project.](https://fahriakbaba-react-shopping-tecjnology.netlify.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
