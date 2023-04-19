@@ -3,11 +3,12 @@ import styles from "./Header.module.css";
 import { GrMoney } from 'react-icons/gr';
 
 
-function Header() {
+function Header({totalPrice}) {
+
     return (
         <header className={styles.header}>
             <h2 className={styles.title}><GrMoney className={styles.icon} />Money Spending APP</h2>
-            <p><span>The Rest of Money:</span> $1.000.000</p>
+            <p><span>The Rest of Money:</span> ${1000000 - totalPrice}</p>
         </header>
     );
 }

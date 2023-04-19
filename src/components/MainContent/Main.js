@@ -3,11 +3,10 @@ import styles from "./Main.module.css";
 import data from "../../data.json";
 import ShowCart from "../ShowCart/ShowCart";
 
-function Main({ cart, setCart }) {
+function Main({ cart, setCart, totalPrice }) {
 
   const addToCart = (obj) => {
     const findItem = cart.find(item => item.id === obj.id);
-    console.log("find item: ", findItem);
 
     if (findItem) {
       setCart(oldState => oldState.map(book => book.id === findItem.id ? { ...book, amount: book.amount + 1 } : book));
@@ -30,7 +29,7 @@ function Main({ cart, setCart }) {
       <section className={styles.container}>
         {dataMap}
       </section>
-      <ShowCart />
+      <ShowCart cart={cart} setCart={setCart} totalPrice={totalPrice} />
     </main>
   )
 }

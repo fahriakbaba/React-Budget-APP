@@ -2,18 +2,22 @@ import './App.css';
 import React from 'react';
 import Header from './components/Header/Header';
 import Main from "./components/MainContent/Main";
-import data from "./data.json";
-
-console.log(data);
 
 function App() {
   const [cart, setCart] = React.useState([]);
-  console.log("cart: ", cart);
+  const [totalPrice , setTotalPrice] = React.useState(0);
+  
+  React.useEffect(() => {
+     setTotalPrice(cart.reduce((acc, value) => {
+      const result = acc += value.price * value.amount;
+      return result;
+    }, 0))
+  }, [cart])
 
   return (
     <div className="App">
-      <Header />
-      <Main setCart={setCart} cart={cart}/>
+      <Header totalPrice={totalPrice} />
+      <Main setCart={setCart} cart={cart} totalPrice={totalPrice} />
     </div>
   );
 }
