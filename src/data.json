@@ -27,6 +27,34 @@
       "price": 13999,
       "url": "https://m.media-amazon.com/images/I/61qWnzKK8UL._AC_UL400_.jpg",
       "amount": 1
+    },
+    {
+      "id": 5,
+      "name": "Asus X515EA-EJ1198 i5-1135G7 8GB RAM 256GB SSD 15.6 inç FHD FreeDOS",
+      "price": 9999,
+      "url": "https://m.media-amazon.com/images/I/51i1h43PxAL._AC_UL400_.jpg",
+      "amount": 1
+    },
+    {
+      "id": 6,
+      "name": "Apple 2022 M2 çipli MacBook Air laptop 13.6 inç Liquid Retina ekran, 8GB RAM, 256 GB SSD depolama",
+      "price": 27630,
+      "url": "https://m.media-amazon.com/images/I/719C6bJv8jL._AC_UL400_.jpg",
+      "amount": 1
+    },
+    {
+      "id": 7,
+      "name": "Apple Watch SE (2. Nesil) [GPS 40 mm]",
+      "price": 5999,
+      "url": "https://m.media-amazon.com/images/I/71h+ce7QVKL._AC_UL400_.jpg",
+      "amount": 1
+    },
+    {
+      "id": 8,
+      "name": "Apple AirPods (2.Nesil) ve Kablolu Şarj Kutusu",
+      "price": 2825,
+      "url": "https://m.media-amazon.com/images/I/51XanmiXw0L._AC_UL400_.jpg",
+      "amount": 1
     }
   ]
 }

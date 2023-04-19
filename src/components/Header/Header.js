@@ -7,7 +7,7 @@ function Header({totalPrice}) {
 
     return (
         <header className={styles.header}>
-            <h2 className={styles.title}><GrMoney className={styles.icon} />Money Spending APP</h2>
+            <h2 className={styles.title}><GrMoney className={styles.icon} />Money Spending App</h2>
             <p><span>The Rest of Money:</span> ${1000000 - totalPrice}</p>
         </header>
     );
