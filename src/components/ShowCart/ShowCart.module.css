@@ -69,3 +69,25 @@
     font-size: .75rem;
     margin-left: .3rem;
 }
+
+@media (max-width: 550px) {
+    .container article {
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: flex-start; */
+        gap: .4rem;
+        margin-bottom: 1rem;
+    }
+
+    .container article div:first-child img {
+        width: 15px;
+    }
+
+    .container article div:first-child h5 {
+        font-size: .6rem;
+    }
+
+    .container article div:last-child {
+        font-size: .6rem;
+    }
+}
